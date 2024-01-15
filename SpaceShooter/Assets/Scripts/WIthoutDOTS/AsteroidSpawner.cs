@@ -17,7 +17,7 @@ public class AsteroidSpawner : MonoBehaviour
         _camera = Camera.main;
 
         //_cameraDistance = _camera.transform.position.y;
-        _spawnOffset = 150;
+        _spawnOffset = 25;
     }
 
     void Update()
@@ -62,6 +62,7 @@ public class AsteroidSpawner : MonoBehaviour
             //Asteroid clone = Instantiate(_asteroidPrefab, spawnPosition, Quaternion.identity);
             GameObject asteroid = PoolManager.Instance.RequestAsteroid();
             asteroid.transform.position = spawnPosition;
+            asteroid.GetComponent<Asteroid>().SetDirection(GameInfo.Instance.player.transform.position);
             
 
 

@@ -36,7 +36,7 @@ public class PoolManager : MonoBehaviour
         {
             GameObject asteroid = Instantiate(_asteroidPrefab, transform);
             asteroid.transform.parent = _asteroidContainer.transform;
-            asteroid.SetActive(false);
+            asteroid.gameObject.SetActive(false);
             asteroidPool.Enqueue(asteroid);
 
         }

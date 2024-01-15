@@ -30,3 +30,4 @@ public class Projectile : MonoBehaviour
 
 
 }
+//collision.gameObject.GetComponent<Asteroid>()
