@@ -9,8 +9,8 @@ public class PoolManager : MonoBehaviour
 
     [Header("Asteroid")]
     [SerializeField] private GameObject _asteroidPrefab;
-    private Queue<GameObject> asteroidPool = new Queue<GameObject>();
     [SerializeField] private int _asteroidPoolCount;
+    private Queue<GameObject> asteroidPool = new Queue<GameObject>();
 
     [Header("Container")]
     [SerializeField] private GameObject _asteroidContainer;
