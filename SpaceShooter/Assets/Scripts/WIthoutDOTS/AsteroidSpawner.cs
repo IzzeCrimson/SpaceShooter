@@ -25,7 +25,7 @@ public class AsteroidSpawner : MonoBehaviour
         if (Time.time >= _nextSpawnTime)
         {
             SpawnAsteroid();
-            _nextSpawnTime = Time.time + 1f * _spawnRate; 
+            _nextSpawnTime = Time.time + _spawnRate; 
         }
     }
 

@@ -244,7 +244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 745c1ae6377a92b49b08c11a5c32ae8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 569066402789653464}
 --- !u!4 &1707871819
 Transform:
   m_ObjectHideFlags: 0
@@ -336,8 +336,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 415ef4709f9320944bc39c5e31acbc18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnRate: 1
-  _spawnAmount: 5
+  _spawnRate: 0.1
+  _spawnAmount: 10
 --- !u!4 &2130966031
 Transform:
   m_ObjectHideFlags: 0
@@ -411,6 +411,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 242c7e89d1511a240b8c30405612ce0a, type: 3}
+--- !u!1 &569066402789653464 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6569858750245071984, guid: 242c7e89d1511a240b8c30405612ce0a, type: 3}
+  m_PrefabInstance: {fileID: 569066402789653463}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
